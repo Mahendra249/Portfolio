@@ -1,0 +1,20 @@
+.head{
+    border: 2px groove blue;
+}
+head h2{
+      text-align: center;
+      size: 34em;
+}
+section{
+    border: 2px groove rgb(97, 99, 99);
+    display: flex;
+    justify-content: center;
+    padding: 2px 3px;
+
+}
+.item{
+    border: 2px groove rgb(3, 3, 12);
+    text-align: center;
+    height: 34em;
+    width: 34em;
+}
