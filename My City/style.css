@@ -1,0 +1,76 @@
+body{
+   background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container h1{
+    align-items: center;
+    color: rgb(16, 16, 16);
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Square Peg', cursive;
+    border-radius: 20px;
+    filter:drop-shadow(2px 2px 4px rgb(47, 85, 101));
+    background-color: #bad3da;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+ h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    filter:drop-shadow(3px 1px 1px rgb(255, 255, 255));
+}
+.box{
+    padding: 0px 5px;
+    color: rgb(255, 249, 249);
+    display: grid;
+    grid-template-columns: auto auto;
+    /* border: 2px solid black; */
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    height: 200vh;
+    width: 100%;
+}
+.item{
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(78 94 98);
+}
+.item label{
+    align-items: center;
+   
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Square Peg', cursive;
+    filter:drop-shadow(2px 2px 4px skyblue);
+  
+}
+/* .box{
+    border: 2px solid black;
+    background-color: lightblue;
+    display: grid;
+    
+    height: 50%;
+} */
+ img{
+   height: 100%;
+   width: 100%;
+   filter: contrast(1.45);
+}
+.item p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Square Peg', cursive;
+}

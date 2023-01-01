@@ -1,0 +1,269 @@
+*{
+    /* margin: 0px 2px; */
+}
+body{
+    background-color: rgb(52, 47, 47);
+    background-image: url("netflix234.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 123px;
+
+}
+
+.logo {
+    margin: -8px -2px;
+}
+
+img {
+    /* border: 1px solid rgb(223, 34, 34); */
+    border-radius: 8px;
+    height: 43px;
+    margin: 17px 19px;
+    padding: 1px 1px;
+}
+
+
+#sgn {
+    font-style: bold;
+    border: 2px solid red;
+    background-color: rgb(225, 33, 33);
+    font-family: Arial, sans-serif;
+    float: right;
+    margin: -50px 18px;
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 3px;
+    color: white;
+}
+
+#sgn:hover {
+    cursor: pointer;
+}
+
+.sign {
+    float: right;
+}
+
+.lang {
+    float: right;
+}
+
+#lg {
+    font-style: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+    float: right;
+    margin: -52px 108px;
+    padding: 6px 0px;
+    border-radius: 5%;
+    font-size: 12px;
+    background-color: black;
+}
+
+.navbar {
+    /* border: 2px solid white; */
+    height: 126px;
+    width: 1203px
+}
+
+header::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    margin: 0px -15px;
+    width: 107%;
+    z-index: -1;
+    opacity: 0.65;
+}
+
+
+.mid {
+    /* border: 3px solid white; */
+    color: white;
+    height: 289px;
+    margin: 36px 285px;
+    width: 621px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    padding: 4px 3px;
+}
+
+#lg span {
+    color: rgb(255, 255, 255);
+}
+
+.p4 {
+    font-size: 16px;
+    margin: 15px;
+}
+
+.p2 {
+    font-size: 21px;
+    margin: -23px 0px;
+}
+
+.mid input {
+    font-size: 16px;
+    height: 49px;
+    width: 409px;
+    margin: -5px -4px;
+
+}
+
+.email {
+    color: white;
+    background-color: rgb(237 24 24);
+    height: 58px;
+    font-size: 75%;
+    width: 182px;
+    margin: 0px 1px;
+}
+
+.email:hover {
+    cursor: pointer;
+}
+
+.next1 {
+    background-color: rgb(53, 51, 51);
+    height: 1621px;
+    width: 1292px;
+    margin: 120px -9px;
+    display: grid;
+    grid-gap: 9px;
+    padding: 9px 0px;
+    grid-template-rows: 24% 24% 26% 26%;
+
+}
+
+.nextitem {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.a {
+    height: 215px;
+    width: 345px;
+    /* border: 2px solid red; */
+    margin: 100px 125px;
+    font-family: Arial, sans-serif;
+}
+
+.b {
+    height: 215px;
+    width: 415px;
+    /* border: 2px solid red; */
+    margin: 100px 93px;
+    font-family: Arial, sans-serif;
+}
+
+.nextitem h1 {
+    font-size: 39px;
+}
+
+.nextitem img {
+    height: 345px;
+}
+
+.nextitem p {
+    font-size: 17px;
+}
+
+.end2 {
+    display: grid;
+    grid-template-rows: 70% 30%;
+    grid-gap: 9px;
+    height: 1085px;
+    margin: -93px -8px;
+    width: 1291px;
+    color: white;
+    background-color: rgb(53, 51, 51);
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: black;
+}
+
+.menu h1 {
+    font-size: 40px;
+    margin: 39px 0px;
+    text-align: center;
+}
+
+.question {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 9px;
+    height: 404px;
+    margin: -11px 275px;
+    width: 54%;
+    /* border: 2px solid white; */
+    background-color: rgb(0, 0, 0);
+}
+
+.ques {
+    /* border: 2px solid white; */
+    background-color: rgb(53, 51, 51);
+    margin: 0px 0px;
+    padding-top: 12px;
+    padding-left: 20px;
+    font-size: 21px;
+}
+
+.ques:hover {
+    cursor: pointer;
+}
+
+.ques span {
+    float: right;
+    font-size: 33px;
+    padding: 0px 9px;
+}
+
+.footer {
+    /* border: 2px solid white; */
+    background-color: black;
+}
+
+.helpcorner {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* border: 2px solid white; */
+    color: rgb(113 113 113);
+    height: 240px;
+    width: 754px;
+    font-size: 11px;
+    margin: 46px 239px;
+}
+
+.helpitem {
+    /* border: 2px solid white; */
+}
+
+.helpitem1 {
+    grid-column: 1/5;
+}
+
+.helpitem17 {
+    grid-column: 1/5;
+}
+
+.helpitem18 {
+    grid-column: 1/5;
+}
+
+#lg2 {
+    font-style: bold;
+    color: rgb(198, 196, 196);
+    font-family: Arial, sans-serif;
+    /* float: right; */
+    padding: 9px 1px;
+    border-radius: 5%;
+    font-size: 12px;
+    background-color: black;
+}

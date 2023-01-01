@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(64, 47, 125);
+    /* background-size: 100%; */
+    background-size:200% ;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    height:245px;
+}
+#navbar ul{
+    flex-direction: column;
+}
+.head1{
+    font-size: 1.8rem;
+}
+#landing{
+    height: 29vh;
+    width: 40vh;
+    margin-top: -113%;
+}
+#item2 h3{
+    font-size: 1.5em;
+    margin: 13px 6px;
+    padding: 25px 0px;
+}
+#item3 input{
+    padding: 6px 5px;
+    margin: 9px -11px;
+}
+.container{
+    margin-top: -94%;
+}
+.container2{
+    margin-top: -116%;
+}
